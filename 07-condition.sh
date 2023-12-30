@@ -1,7 +1,7 @@
 #!/bin/bash
 
-number1=$1
-number2=$2
+number1=100
+number2=100
 
 
 if [$number1 == $number2]
