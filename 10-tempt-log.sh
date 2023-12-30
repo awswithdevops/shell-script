@@ -14,16 +14,16 @@ echo "Script started executing at $TIMESTAMP" &>> $LOGFILE
 VALIDATE(){
     if [ $1 -ne 0 ]
 then
-    echo -e " ERROR: $2... $R failed $N"
+    echo -e " ERROR: $2... $R failed $N "
     exit 1 # you can give other than 0
 else
-    echo -e " $2...$G scucess $N"
+    echo -e " $2... $G scucess $N "
 fi
 }
 
 if [ $ID -ne 0 ]
 then
-    echo "ERROR:pleae run with root access  "
+    echo -e "$R ERROR:pleae run with root access $N "
     exit 1 # you can give other than 0
 else
     echo " Root user "
