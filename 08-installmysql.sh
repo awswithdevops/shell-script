@@ -2,7 +2,7 @@
 
 ID=$(id -u) # root uer id
 
-if [ $ID -ne 0]
+if [ $ID -ne 0 ]
 then
     echo "ERROR:pleae run with root access "
 else
