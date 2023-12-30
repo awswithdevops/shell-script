@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# this are arguments
 Person1=$1
 Person2=$2
 
