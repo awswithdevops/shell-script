@@ -13,19 +13,19 @@ LOGFILE="/tmp/$0-$TIMESTAMP.log"
 VALIDATE(){
     if [ $1 -ne 0 ]
 then
-    echo "$R ERROR: $2... failed $N"
+    echo " ERROR: $2... $R failed $N"
     exit 1 # you can give other than 0
 else
-    echo "$G $2... scucess $N"
+    echo " $2...$G scucess $N"
 fi
 }
 
 if [ $ID -ne 0 ]
 then
-    echo "$R ERROR:pleae run with root access $N "
+    echo "ERROR:pleae run with root access  "
     exit 1 # you can give other than 0
 else
-    echo "$G Root user $N"
+    echo " Root user "
 fi
 
 yum install mysql -y &>> $LOGFILE
