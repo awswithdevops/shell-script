@@ -1,7 +1,12 @@
 #!/bin/bash
 
-username=$1
-password=$2
+echo "pleae enter uesrnme:"
 
-echo "enter user name:$username"
-echo "enter password:$password"
+read -s username #the value enter automaticallly added
+
+echo "pleae enter password:"
+
+read -s password
+
+echo " user name:$username"
+echo " password:$password"
