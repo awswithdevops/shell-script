@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ID=$(id -u)// root uer id
+ID=$(id -u) # root uer id
 
 if [ $ID -ne 0]
 then
