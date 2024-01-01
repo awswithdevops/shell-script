@@ -17,6 +17,7 @@ VALIDATE(){
         echo -e "$2 error:...$R Faield $N"
     else
         echo -e "$2 .....$G Sucess $N"
+    fi
 }
 
 if [ $ID -ne 0 ]
@@ -40,5 +41,6 @@ do
         VALIDATE $? "intsallation of $package"
     else
         echo -e "$package is already installed...$Y Skipping..$N"
+    fi
 
 done
