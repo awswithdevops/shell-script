@@ -12,7 +12,7 @@ then
     echo -e "$R ERROR:pleae run with root access $N "
     exit 1 # you can give other than 0
 else
-    echo "$G Root user $N"
+    echo -e "$G Root user $N"
 fi
 
 echo "All arguments passed: $@"
